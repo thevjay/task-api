@@ -20,7 +20,7 @@ jobs:
                 noe-version: 22
                 cache: npm
           - name: Install dependencies
-            run: npm cl
+            run: npm ci
 
           - name: Run tests
             run: npm test 
